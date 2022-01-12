@@ -1,0 +1,48 @@
+.columns{
+    width: 500px;
+    /* 横幅の設定 */
+    margin:auto;
+    /* 画面中央に設定 */
+    display: flex;
+    /* flexにすることで、縦に枠をとることができる */
+}
+
+.col-1{
+    width: 30%;
+    padding: 10px;
+    background: #333;
+    border: 1px solid #ccc;
+    color:#fff;
+}
+.col-2{
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    color:#333;
+    display: none;
+}
+
+.rows{
+    width: 500px;
+    /* 横幅の設定 */
+    margin:auto; 
+}
+
+.rev_1{
+    /* 上記floatの影響を受けないようにする */
+    padding:10px;
+    /* 文字回りのスペース。top,left,right,bottom含む */
+    display:block;
+    /* 画面に表示させる場合はblock,非表示はnone */
+    background: #333;
+    /* 背景色 */
+    color: aqua;
+    /* 文字カラー */
+    border-top: 1px solid #fff;
+    /* 文字（padding含む）の上のスペース設定。solidで色も選べる */
+}
+.rev_2{
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: none;
+}
